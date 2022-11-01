@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "lato-regular";
+  src: url("../fonts/LatoRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "lato-bold";
+  src: url("../fonts/LatoBold.woff") format("woff");
+}
+
+body {
+  font-family: "lato-regular";
+  color: #2d2d2d;
+  font-size: 16px;
+  line-height: 130%;
+}
+.container{
+  padding-top: 145px;
+  width: 1420px;
+  margin: 0 auto;
+}
+.breadcrumb{
+  display: flex;
+  margin-bottom: 80px;
+}
+.breadcrumb__list{
+  display: flex;
+  padding: 0;
+  gap: 16px;
+  list-style-type: none;
+  font-family: 'lato-bold';
+  color: #525252;
+}
+.wrapper{
+  display: flex;
+  gap: 143px;
+}
+.article__header{
+  font-size: 50px;
+  color: #2D2D2D;
+  margin-bottom: 40px;
+  line-height: 100%;
+}
+.article__text{
+  font-size: 22px;
+  margin-bottom: 100px;
+  line-height: 150%;
+}
+
+.article__info{
+display: flex;
+justify-content: space-between;
+}
+
+.articles__list{
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: #2D2D2D;
+  cursor: pointer;
+}
+
+.articles__list > span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.article__author{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #8F8F8F;
+  font-weight: 700;
+  }
+
+  .article__author-name{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #000000;
+  }
+
+.article__author-info{
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  color: #8F8F8F;
+}
+.view, .chat{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.promo{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.promo__header{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+
+}
+.promo_note{
+  font-size: 16px;
+
+}
+.promo__img{
+  width: 530px;
+  height: 330px;
+}
+
+.promo__cart{
+  position: relative;
+  display: inline-block;
+}
+
+.promo__text{
+  position: absolute;
+  color: #fff;
+  left: 0;
+  bottom: 0px;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-bottom: 43px;
+  width: 380px;
+  gap: 4px;
+}
+
+.promo__text p{
+  padding: 0px;
+  margin: 0px;
+}
